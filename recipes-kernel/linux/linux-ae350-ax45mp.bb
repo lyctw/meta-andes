@@ -8,6 +8,7 @@ require recipes-kernel/linux/linux-yocto.inc
 BRANCH = "RISCV-Linux-5.4-ast-v5_1_0-branch"
 SRC_URI = "git://${LOCAL_SRC}/linux-5.4;protocol=file;branch=${BRANCH} \
            file://linux.cfg \
+           file://fuse_fs.cfg \
           "
 
 SRCREV = "2ab5520e7d164413793cf847a98b888e899866ad"
